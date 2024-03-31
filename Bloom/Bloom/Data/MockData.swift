@@ -39,9 +39,8 @@ struct MockData {
 
     // ランダムな場所を生成する関数
     func randomLocation() -> Location {
-        let random = Double.random(in: 0...9)
-        let latitude = 35.710057714926265 + random
-        let longitude = 139.81071829999996 + random
+        let latitude = 35.710057714926265
+        let longitude = 139.81071829999996
         return Location(longitude: longitude, latitude: latitude)
     }
 
@@ -108,7 +107,7 @@ struct MockData {
         ]
 
         // 指定したUIDを持つドキュメントにデータを追加（または更新）
-        db.collection(collectionName).addDocument(data: firestoreData) { error in
+        db.collection(collectionName).document(uid).setData(firestoreData) { error in
             guard error == nil else {
                 completion(error)
                 return

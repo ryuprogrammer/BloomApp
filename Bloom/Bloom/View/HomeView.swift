@@ -6,7 +6,7 @@ struct HomeView: View {
     @ObservedObject var locationManager = LocationManager()
     let userDataModel = UserDataModel()
     let userDefaultsDataModel = UserDefaultsDataModel()
-    let mockData = MockData()
+//    let mockData = MockData()
 
     enum ViewSection: Int {
         case swipeView = 1
@@ -110,7 +110,7 @@ struct HomeView: View {
             }
 
             print("モックデータ追加開始")
-            mockData.addProfileData()
+//            mockData.addProfileData()
         }
     }
 }
