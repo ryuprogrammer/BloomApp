@@ -297,6 +297,7 @@ class UserDataModel {
     func fetchProfileUids(limit: Int, completion: @escaping ([String]?, Error?) -> Void) {
         let db = Firestore.firestore()
 
+        // TODO: - ここでフィルターかける
         db.collection("profiles").limit(to: limit).getDocuments { (querySnapshot, error) in
             if let error = error {
                 completion(nil, error)

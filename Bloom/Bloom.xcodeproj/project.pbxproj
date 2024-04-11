@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		424D5B932BB9B3BA006E19FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 424D5B922BB9B3BA006E19FC /* GoogleService-Info.plist */; };
+		424D5B952BB9DF72006E19FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 424D5B942BB9DF71006E19FC /* GoogleService-Info.plist */; };
 		4298A0232BB9239100EE211E /* BloomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4298A0222BB9239100EE211E /* BloomApp.swift */; };
 		4298A0252BB9239100EE211E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4298A0242BB9239100EE211E /* ContentView.swift */; };
 		4298A0272BB9239300EE211E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4298A0262BB9239300EE211E /* Assets.xcassets */; };
@@ -111,7 +111,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		424D5B922BB9B3BA006E19FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		424D5B942BB9DF71006E19FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4298A01F2BB9239100EE211E /* Bloom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bloom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4298A0222BB9239100EE211E /* BloomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomApp.swift; sourceTree = "<group>"; };
 		4298A0242BB9239100EE211E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -256,8 +256,8 @@
 				4298A0422BB928E900EE211E /* Data */,
 				4298A0432BB928FA00EE211E /* Extentions */,
 				4298A0262BB9239300EE211E /* Assets.xcassets */,
+				424D5B942BB9DF71006E19FC /* GoogleService-Info.plist */,
 				4298A0282BB9239300EE211E /* Bloom.entitlements */,
-				424D5B922BB9B3BA006E19FC /* GoogleService-Info.plist */,
 				4298A0292BB9239300EE211E /* Preview Content */,
 			);
 			path = Bloom;
@@ -590,9 +590,9 @@
 				4298A0732BB92CA600EE211E /* serviceDescription.txt in Resources */,
 				4298A0272BB9239300EE211E /* Assets.xcassets in Resources */,
 				4298A06F2BB92C7C00EE211E /* deleteDescription.txt in Resources */,
+				424D5B952BB9DF72006E19FC /* GoogleService-Info.plist in Resources */,
 				4298A0712BB92C9300EE211E /* privacyDescription.txt in Resources */,
 				4298A07B2BB92D0A00EE211E /* NGWordList.csv in Resources */,
-				424D5B932BB9B3BA006E19FC /* GoogleService-Info.plist in Resources */,
 				4298A07F2BB92D3000EE211E /* ProfessionList.csv in Resources */,
 				4298A07D2BB92D1C00EE211E /* HobbyList.csv in Resources */,
 			);

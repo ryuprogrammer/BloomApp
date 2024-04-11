@@ -15,8 +15,7 @@ struct SwipeView: View {
 
     var body: some View {
         NavigationStack {
-            VStack {
-                // TODO: - このVStackいらない
+            ZStack {
                 VStack {
                     // 広告
                     NavigationLink {
@@ -24,7 +23,7 @@ struct SwipeView: View {
                     } label: {
                         AdvertisementView()
                     }
-
+                    
                     Spacer()
                 }
 

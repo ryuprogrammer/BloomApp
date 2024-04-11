@@ -53,7 +53,7 @@ class MyPageViewModel: ObservableObject {
 
     /// 退会（ユーザーデータ削除）
     func deleteUser() {
-//        authenticationManager.deleteUser()
+        authenticationManager.signOut()
         userDefaultsDataModel.deleteMyProfile()
     }
 

@@ -11,7 +11,11 @@ struct SwipeCardsStack: View {
     
     var body: some View {
         ZStack {
-            Text("今日のスワイプ回数が上限に達しました。")
+            VStack {
+                Spacer()
+                Text("今日のスワイプ回数が上限に達しました。")
+                Spacer()
+            }
             ForEach(Array($showingCard.enumerated()), id: \.element.id) { index, $card in
                 SwipeCardView(
                     card: card,

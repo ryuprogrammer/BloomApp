@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>655728664375-ttgr6ooelhet381vburb76c8od30pb3s.apps.googleusercontent.com</string>
+	<string>1060328845831-etampqlqaouafp1lpl69lbta6c9fhl8i.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.655728664375-ttgr6ooelhet381vburb76c8od30pb3s</string>
+	<string>com.googleusercontent.apps.1060328845831-etampqlqaouafp1lpl69lbta6c9fhl8i</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAZLnZYDQ3BMoB-RVhg5GurxXjp-Ixxyhk</string>
+	<string>AIzaSyBWkNqDDaKbbCi7gGd-UCtlvjZUsCVsrlQ</string>
 	<key>GCM_SENDER_ID</key>
-	<string>655728664375</string>
+	<string>1060328845831</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>ryuprogrammer.Bloom</string>
 	<key>PROJECT_ID</key>
-	<string>bloomapp-caa16</string>
+	<string>bloom-fc289</string>
 	<key>STORAGE_BUCKET</key>
-	<string>bloomapp-caa16.appspot.com</string>
+	<string>bloom-fc289.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:655728664375:ios:e228d8514ce419af5144b2</string>
+	<string>1:1060328845831:ios:0bc4d8ffcfa47f117130a2</string>
 </dict>
 </plist>
